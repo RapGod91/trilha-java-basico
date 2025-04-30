@@ -4,19 +4,19 @@ import java.util.Scanner;
 public class AboutMe {
     public static void main(String[] args) {
         //criando o objeto scanner
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        Scanner scanear = new Scanner(System.in).useLocale(Locale.US);
         
         System.out.println("Digite seu nome");
-        String nome = scanner.next();
+        String nome = scanear.next();
         
         System.out.println("Digite seu sobrenome");
-        String sobrenome = scanner.next();
+        String sobrenome = scanear.next();
 
         System.out.println("Digite sua idade");
-        int idade = scanner.nextInt();
+        int idade = scanear.nextInt();
         
         System.out.println("Digite sua altura");
-        double altura = scanner.nextDouble();
+        double altura = scanear.nextDouble();
 
         
         //imprimindo os dados obtidos pelo usuario
